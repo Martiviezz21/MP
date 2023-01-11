@@ -1,6 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+body, html {
+    height: 100%;
+}
+
 #hero-image {
     background: url("../images/background.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100%;
 }
