@@ -13,14 +13,16 @@
   font-family: "Roboto", sans-serif;
 }
 
-body {
+html {
     height: 100%;
+}
+
+body {
+    min-height: 100%;
     margin: 0;
 }
 
-
-
-/* ---------------------------------background*/
+/* ---------------------------------Background*/
 
 #hero-image {
     background-color: #000;
@@ -35,20 +37,19 @@ body {
     -o-background-size: cover;
 }
 
-/* ---------------------------------navbar*/
+/* ---------------------------------Navbar*/
 
 #menu, .nav-bar{
-    line-height: 2.5;
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    font-size: 110%;
-    list-style-type: none;
-    margin-left: 30px;
+    background-color: aqua;
     position: absolute;
-    top: 5%;
+    padding: 5% 2rem;
+    font-weight: 300;
+    font-size: 100%;
+    line-height: 3;
+    list-style-type: none;
 }
 
-#menu a {
+#menu li {
     color: #fafafa;
 }
 
@@ -65,9 +66,60 @@ body {
     color: #676767;
     text-decoration: none;
 }
+/*
+/*@media(min-width: 992px) {
+    #menu, .nav-bar {   
+    }
+}*/
 
-/* ---------------------------------Form*/
 
+/*-----------------------------Container*/
+
+section {
+    width: 100%;
+    background-color: green;
+    text-align: left;
+}
+
+/* ---------------------------------About*/
+/*
+.about h3 {
+    color: grey;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+#about-image {
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+
+.about p {
+    color: grey;
+    text-align: justify;
+}
+
+.exhibition {
+    color: grey;
+    padding-top: 2rem;
+    text-align: center;
+}
+
+h4 {
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+}
+
+h5 {
+    font-size: 1rem;
+}
+
+.exhibition p {
+    font-size: 1rem;
+}
+
+/* ---------------------------------Contact*/
+/*
 .center-form {
     padding-top: 5rem;
     padding-bottom: 10rem;
@@ -98,17 +150,29 @@ input, textarea {
 }
 
 /* ---------------------------------Footer*/
-
+/*
 footer {
-    position: absolute;
-    bottom: 0;
+    padding: 1.5rem 0 1rem 0;
+    background-color: red;
     width: 100%;
-    height: 2.5rem; 
 }
+
 .container-social {
+    background-color: white;
     text-align: center;
-    padding: 7.5px;
-    font-size: 30px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 2rem;
+    padding: 1rem 1rem;
     color: #000;
 }
 
@@ -123,53 +187,14 @@ footer {
 
 .copyright {
     text-align: center;
+}   
+
+/*gallery*/
+
+#gallery {
+    background-color: pink;
 }
 
-/* ---------------------------------About*/
-
-
-#about-image {
-    width: 15rem;
-    height: 10%;
-    background-image: url("../images/stefano.jpg");
-    background-repeat: no-repeat;
-    background-size: 30%;
-    min-height: 22.5;
-    background-position: center;
-    -webkit-background-size: 30%;
-    -moz-background-size: 30%;
-    -o-background-size: 30%;
+.gallery-list a:hover {
+    text-decoration: none;
 }
-
-.about-heading {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    padding-top: 25rem;
-    text-align: center;
-}
-
-.about-heading p {
-    font-family: "Roboto", sans-serif;
-    padding-top: 5rem;
-    padding-left: 30rem;
-    padding-right: 30rem;
-    text-align: center;
-}
-
-
-/* ---------------------------------Exibitions*/
-
-.exibition {
-    font-family: "Roboto", sans-serif;
-    text-align: center;
-    padding-top: 5rem;
-}
-
-.exibition-heading {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    padding-bottom: 2rem;
-}
-
-
-
