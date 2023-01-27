@@ -1,123 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!--Bootstrap link-->
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
-      type="text/css"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!--Font Awesome Link-->
-    <script
-      src="https://kit.fontawesome.com/88c70484a9.js"
-      crossorigin="anonymous"
-    ></script>
+  <!--Bootstrap link-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
 
-    <!--CSS link-->
-    <link rel="stylesheet" href="assets/css/style.css" />
+  <!--Font Awesome Link-->
+  <script src="https://kit.fontawesome.com/88c70484a9.js" crossorigin="anonymous"></script>
 
-    <!-- Favicon-->
-    <title>Stefano Fantuzzi</title>
-    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico" />
-  </head>
+  <!--CSS link-->
+  <link rel="stylesheet" href="assets/css/style.css" />
 
-  <body>
-    <!--Navbar-->
-    <section>
-      <nav class="navbar">
-        <ul class="nav flex-column">
-          <li>
-            <a href="index.html">Home</a>
-          </li>
-          <br />
-          <li>
-            <a href="gallery.html">Gallery</a>
-          </li>
-          <li>
-            <a href="about.html">About</a>
-          </li>
-          <li>
-            <a
-              href="https://www.blurb.co.uk/books/8917294-fr794"
-              target="_blank"
-              >Books</a
-            >
-          </li>
-          <br />
-          <li>
-            <a href="contact.html">Contact</a>
-          </li>
-          <li>
-            <!--Social Links-->
-            <div class="container-social">
-              <ul class="social-networks">
-                <li>
-                  <a href="https://www.linkedin.com" target="_blank">
-                    <i class="fa-brands fa-linkedin button"></i
-                  ></a>
-                </li>
-                <li>
-                  <a href="https://www.instagram.com" target="_blank">
-                    <i class="fa-brands fa-instagram button"></i
-                  ></a>
-                </li>
-                <li>
-                  <a href="https://www.tumblr.com" target="_blank">
-                    <i class="fa-brands fa-square-tumblr button"></i
-                  ></a>
-                </li>
-              </ul>
-            </div>
-          </li>
-        </ul>
-      </nav>
+  <!-- Favicon-->
+  <title>Stefano Fantuzzi</title>
+  <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico" />
+</head>
 
-      <!--Form-->
-      <div id="contact">
-        <div class="contact-heading">
-          <h4>Contact Me</h4>
+<body>
+  <!--Navbar Bootstrap-->
+  <nav class="navbar">
+    <ul class="nav flex-column">
+      <li>
+        <a href="index.html">Home</a>
+      </li>
+      <li>
+        <a href="gallery.html">Gallery</a>
+      </li>
+      <li>
+        <a href="about.html">About</a>
+      </li>
+      <li>
+        <a href="https://www.blurb.co.uk/books/8917294-fr794" target="_blank">Books</a>
+      </li>
+      <li>
+        <a href="contact.html">Contact</a>
+      </li>
+      <li>
+        <!--Social Links-->
+        <div class="container-social">
+          <ul class="social-networks">
+            <li>
+              <a href="https://www.linkedin.com" target="_blank">
+                <i class="fa-brands fa-linkedin button"></i></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com" target="_blank">
+                <i class="fa-brands fa-instagram button"></i></a>
+            </li>
+            <li>
+              <a href="https://www.tumblr.com" target="_blank">
+                <i class="fa-brands fa-square-tumblr button"></i></a>
+            </li>
+          </ul>
         </div>
-        <div class="center-form">
-          <form>
-            <input
-              type="text"
-              name="name"
-              id="fullname"
-              class="form-control"
-              placeholder="Full Name"
-              required
-            />
-            <input
-              type="email"
-              name="email"
-              id="emailaddress"
-              class="form-control"
-              placeholder="Email"
-              required
-            />
-            <textarea
-              row="5"
-              name="message"
-              id="message"
-              class="form-control"
-              placeholder="Message"
-              required
-            ></textarea>
-            <div class="form-row">
-              <div class="col">
-                <button type="submit" class="btn btn-secondary">
-                  Send Message
-                </button>
-              </div>
-            </div>
-          </form>
+      </li>
+    </ul>
+  </nav>
+  <!--Form-->
+  <div id="contact">
+    <div class="contact-heading">
+      <h4>Contact Me</h4>
+    </div>
+    <div class="center-form">
+      <form>
+        <input type="text" name="name" id="name" class="form-control" placeholder="Forename" required />
+        <input type="text" name="lastname" id="lastname" class="form-control" placeholder="Last Name" required />
+        <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required />
+        <textarea row="5" name="message" id="message" class="form-control" placeholder="Message" required></textarea>
+        <div class="form-row">
+          <div class="col">
+            <button type="submit" class="btn btn-secondary">
+              Send Message
+            </button>
+          </div>
         </div>
-      </div>
-    </section>
-  </body>
+      </form>
+    </div>
+  </div>
+  </section>
+</body>
+
 </html>

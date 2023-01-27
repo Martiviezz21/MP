@@ -1,7 +1,7 @@
 
 # Milestone Project 1
 This is a photographer website. It is designed to be responsive and accessible on different devices. 
-My client and I had discussed thoroughly about the look  and the purpose of the website, so I designed with the thought of having a simple and eye-catching webpage.
+My client and I had discussed thoroughly about the look  and the purpose of the website, so I designed with the thought of having a simple and eye-catching webpage. The aim of the project is to show his works and find ckients.
 ## Design
 - Colour Scheme :
     The main colour used are black, white and grey. My client takes black&white pictute so I decided to foloow his style.
@@ -29,9 +29,6 @@ a
 - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 4. GitHub:
 - GitHub is used to store the projects code after being pushed from Git.
-5. Google Fonts:
-a
-a
 ## Testing
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 - W3C Markup Validator - Add result
