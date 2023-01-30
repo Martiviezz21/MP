@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  font-family: "Arial", "Lucida Grande", sans-serif, "Roboto";
+  font-family: "Arial", sans-serif, "Roboto";
   font-weight: 100;
   letter-spacing: 1.25px;
   /*min-height: 100%;*/
@@ -30,7 +30,7 @@ body {
   -o-background-size: cover;
 }
 
-/* ---------------------------------Header*/
+/*---Header---*/
 
 #header {
   text-align: left;
@@ -41,7 +41,7 @@ h2 {
   color: #fafafa;
 }
 
-/* ---------------------------------Navbar*/
+/*---Navbar---*/
 #navbar,
 .navbar {
   position: fixed;
@@ -129,23 +129,7 @@ h2 {
   color: green;
 }
 
-/*@media(max-width: 768px) {
-  header {
-    float: left;
-  }
-
-  #navbar li {
-    float: right;
-  }
-
-
-/*@media(min-width: 600px) {
-    #nabar, .navbar {
-    }
-}
-
-
-/*-----------------------------Gallery*/
+/*---Gallery---*/
 
 .container-gallery {
   margin-left: 230px;
@@ -168,18 +152,10 @@ h2 {
   display: block;
 }
 
-/*@media (min-width: 40em) {
-  .card {
-    border: 3px;
-    grid-row: span 1;
-    grid-column: span 1;
-  }
-}
-
-/*-----------------------------About*/
+/*---About---*/
 
 .about-container {
-  margin-left: 230px;
+  margin-left: 200px;
   max-width: 100%;
 }
 
@@ -195,6 +171,14 @@ h2 {
   font-size: 0.85rem;
 }
 
+.question {
+  font-weight: bold;
+}
+
+.answer {
+  font-style: italic;
+}
+
 .exhibition {
   padding-top: 2.5rem;
   padding-left: 5rem;
@@ -208,15 +192,17 @@ h2 {
 }
 
 .exhibition h5 {
+  padding-bottom: 1rem;
   font-size: 0.85rem;
   font-weight: bold;
 }
 
 .exhibition p {
   font-size: 0.85rem;
+  line-height: 1rem;
 }
 
-/* ---------------------------------Contact*/
+/*---Contact---*/
 
 #contact {
   margin-left: 230px;
@@ -252,4 +238,58 @@ h2 {
 input,
 textarea {
   margin-top: 1rem;
+}
+
+/*---@media---*/
+
+/*For Large Tablet*/
+@media(max-width: 991px) {
+  header {}
+
+  #navbar {
+    position: fixed;
+    width: 150px;
+    padding-top: 2.5rem;
+    padding-left: 2.5rem;
+  }
+
+  .navbar {
+    width: 150px;
+  }
+  .navbar li {
+    ;
+  }
+
+  .container-gallery {
+    margin-left: 180px;
+  }
+
+  .about-container {
+    margin-left: 180px;
+  }
+
+  .about-text {
+    text-align: left;
+    max-width: 80%;
+    min-width: 50ch;
+    font-size: 1rem;
+  }
+
+  #contact {
+    margin-left: 180px;
+  }
+
+  .center-form {
+    max-width: 100%;
+  }
+}
+
+
+/*For Smartphone*/
+@media(min-width: 600px) {
+
+  .nabar ul{
+    padding: 0;
+    margin: 0;
+  }
 }

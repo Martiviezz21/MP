@@ -1,21 +1,26 @@
 
 # Milestone Project 1
 This is a photographer website. It is designed to be responsive and accessible on different devices. 
-My client and I had discussed thoroughly about the look  and the purpose of the website, so I designed with the thought of having a simple and eye-catching webpage. The aim of the project is to show his works and find ckients.
+My client and I had discussed thoroughly about the look  and the purpose of the website, so I designed with the thought of having a simple and eye-catching webpage. The aim of the project is to show his works and find clients.
 ## Design
-- Colour Scheme :
-    The main colour used are black, white and grey. My client takes black&white pictute so I decided to foloow his style.
-- Typography :
-    The main font used is ? for the whole website with San Serif as a fallback font in case the main font is not imported into the site correctly.
+- Colour Scheme : The main colour used are black, white and grey. My client takes black&white pictute so I decided to foloow his style.
+- Typography : The main font used is Arial for the whole website with San Serif as a fallback font in case the main font is not imported into the site correctly.
 - Imagery : Together with my client we chose a picture for the background's home page. We find it attractive on his semplicity.
 ## Wireframes
-a
-a
-a
-a
+<img src="assets/images/readme-wireframe/desktop-home.jpg" width=600 height=400>
+<img src="assets/images/readme-wireframe/descktop-gallery.jpg" width=600 height=400>
+<img src="assets/images/readme-wireframe/descktop-about.jpg" width=600 height=400>
+
+<img src="assets/images/readme-wireframe/phone-home.jpg" width=400 height=600>
+<img src="assets/images/readme-wireframe/phone-gallery.jpg" width=400 height=600>
+
 ## Feature
 - Responsive on three devices sizes as project's requirement.
 - Interactive elements
+- The nav bar include Home, Gallery, About, Books, Contact and social media links and it is idetical on all pages for an easy navigation.
+- The Home page introduces the user to Stefano Fantuzzi Photography website.
+- The Gallery page will show what kind of works the photographer does.
+- The About page consist in a small interview to the photographer and also s
 ## Tecnologies Used
 ### Langueages Used
 - HTML5
@@ -34,7 +39,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 - W3C Markup Validator - Add result
 - W3C CSS Validator - Add result
 ## Further Testing
-- Frinds and familt menbers were asked to review the site and documentation to point out any bugs and user experience issues.
+- Frinds and family menbers were asked to review the site and documentation to point out any bugs and user experience issues.
 
 ## Known Bugs
 a
@@ -54,5 +59,6 @@ a
 ## Acknowledgements
 - My Mentor Jubril for his feedback.
 - Tutor support at Code Intitute for their help.
+- The client for providing the picture.
 
 
